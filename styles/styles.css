@@ -1,15 +1,26 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/*NAVBAR*/
+.fondo-nav {
+    background-color: #911f27;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
+.logo-nav {
+    width: 200px;
+    height: 100px;
 }
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav  {
+    color: #fcf0cb;
+}
+
+.nav-h {
+    color: #fcf0cb;
+}
+
 
 /*INICIO*/
 .imagen__de__fondo {
@@ -29,397 +40,47 @@ body {
 }
 
 
-.grid {
-    display: grid;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
-    grid-template-rows: 120px 1fr 130px;
-}
 
-/*HEADER*/
-.header {
-    grid-area: header;
+/*FOOTER*/
+.fondo-footer {
     background-color: #911f27;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header__titulo {
-    width: 200px;
-    height: 100px;
-}
-
-.header__nav ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.header__nav ul li {
-    margin: 0;
-    padding: 10px;
-}
-
-.header__nav ul li a {
     color: #fcf0cb;
-    text-decoration: none;
-    transition: color 0.5s ease-in, font-size 1.0s ;
 }
 
-.header__nav ul li a:hover {
-    color: #cab164;
-    font-size: 18px;
+.nav-t {
+    text-align: right;
 }
 
-.header__nav ul li a:active {
-    color: #630a10;
+.nav-li {
+    color: #fcf0cb; 
 }
 
 
-/*titulos*/
-.titulos {
-    color: #630a10;
-    font-family: 'Lobster', cursive;
-    font-weight: 560;
-    text-align: center;
-}
 
-
-/*SOBRE NOSOTROS*/
-.fondosn {
-    display: grid;
-    grid-template-areas:
-        "section""section";
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+/*CONTACTO*/
+.fondo-form {
     background-color: #fcf0cb;
-    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-
-.img__sn {
-    object-fit: cover;
-    padding: 15px;
-    padding-left: 10px;
-
+.form-l {
+    background-color: #fcf0cb;
+    color: #630a10;
+    font-weight: 600
 }
 
-.fondo__sntexto p {
-    padding: 100px;
+.form-p {
+    background-color: #fcf0cb;
 }
 
-#imagen__sn1 {
-    padding-top: 30px;
+.form-button {
+    color: #630a10;
 }
 
-#imagen__sn2 {
+.form-img {
     padding-bottom: 30px;
 }
 
 
-/*FOOTER*/
-.footer {
-    grid-area: footer;
-    background-color: #911f27;
-    border-top: 0px solid;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    color: #fcf0cb;
-    text-decoration-color: #fcf0cb;
-    list-style-type: none;
-}
 
-.footer_nav {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-}
-
-.footer__list {
-    font-family: 'Roboto', sans-serif;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer__list li a {
-    text-decoration: none;
-    /*agrego el text-decoration:none en el li a pero en la navbar si lo toma y aca no, xq?*/
-}
-
-#redes {
-    display: inline-block;
-    padding: 10px;
-}
-
-
-/*PRODUCTOS continuar y o rehacerlo mas lindo*/
-.fondop {
-    display: grid;
-    grid-template-areas:
-        "ptitulo ptitulo"
-        "pbase1 pbase2"
-        "pbase3 pbase3";
-    grid-template-rows: 50px 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    background-color: #fcf0cb;
-    align-items: center;
-}
-
-.ptitulo {
-    grid-area: ptitulo;
-    padding-top: 50px;
-}
-
-.pbase1 {
-    grid-area: pbase1;
-}
-.pbase2 {
-    grid-area: pbase2;
-}
-.pbase3 {
-    grid-area: pbase3;
-}
-
-#imagen__p1 {
-    padding-left: 250px;
-}
-#imagen__p2 {
-    padding-left: 250px;
-}
-#imagen__p3 {
-    padding-left: 600px;
-}
-
-
-
-/*GALERIA*/
-.fondog {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding-top: 20px;
-    background-color: #fcf0cb;
-}
-
-.img__g {
-    width: 310px;
-    height: 430px;
-    object-fit: cover;
-    transition: all 0.5s ease-out;
-}
-
-.img__g:hover {
-    scale: 110%;
-}
-
-
-.gtitulo {
-    text-align: center;
-    padding: 25px;
-    background-color: #fcf0cb;
-
-}
-
-/*CONTACTO*/
-.fondoc {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    background: #fcf0cb;
-}
-
-.form {
-    display: grid;
-    grid-template-areas:
-    "form__c" "form__map";
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    max-width: 960px;
-    margin: auto;
-    width: 100%;
-    background: #911f27;
-    padding: 40px;
-    font-size: 20px;
-    color: #fcf0cb;
-
-}
-
-#tituloc {
-    padding: 30px;
-    font-size: 40px;
-}
-
-
-
-
-
-@media screen and (max-width:767px) {
-    /*inicio*/
-    .grid {
-        display: grid;
-        grid-template-areas:
-            "header"
-            "main"
-            "footer";
-        grid-template-rows: 120px 1fr 130px;
-    }
-
-    .header__nav ul {
-        display: none;
-        justify-content: flex-end;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .imagen__de__fondo {
-        height: 750px;
-        background-image: url(../images/pastel-chocolate-con-trozos-chocolat-y-bombon.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .imagen__de__fondo div {
-        text-align: right;
-        padding-top: 500px;
-        font-family: 'Lobster', cursive;
-        font-size: 30px;
-        margin-right: 40px;
-        color: #fcf0cb;
-    }
-
-    /*footer*/
-    .footer {
-        grid-area: footer;
-        background-color: #911f27;
-        border-top: 0px solid;
-        padding: 20px;
-        display: flex;
-        justify-content: space-around;
-        color: #fcf0cb;
-        text-decoration-color: #fcf0cb;
-        list-style-type: none;
-        font-size: 12px;
-    }
-
-    #redes {
-        display: inline-block;
-        padding: 03px;
-    }
-
-    /*sobre nosotros*/
-    .fondosn {
-        display: grid;
-        grid-template-areas:
-            "section"
-            "section";
-        grid-template-columns: 1fr;
-        background-color: #fcf0cb;
-        flex-direction: column;
-        
-    }
-
-    .fondo__sntexto p {
-        padding: 05px;
-        text-align: center;
-    }
-
-    #imagen__sn1 {
-        padding: 1px;
-        width: 100%;
-    }
-
-    #imagen__sn2 {
-        padding: 1px;
-    }
-
-    /*productos*/
-    .fondop {
-        display: grid;
-        grid-template-areas:
-            "ptitulo"
-            "pbase1"
-            "pbase2"
-            "pbase3";
-        grid-template-columns: 1fr;
-        background-color: #fcf0cb;
-        align-items: cener;
-        flex-direction: column;
-
-        margin: 0;
-        padding: 0;
-    }
-
-
-    .ptitulo {
-            grid-area: ptitulo;
-            padding-top: 05px;
-            -webkit-text-size: 10px;
-        }
-
-        .pbase1 {
-            grid-area: pbase1;
-            padding-top: 10px;
-        }
-        
-        .pbase2 {
-            grid-area: pbase2;
-            padding-top: 10px;
-        }
-        
-        .pbase3 {
-            grid-area: pbase3;
-            background-color: aa;
-            padding-top: 15px;
-        }
-        
-        #imagen__p1 {
-            padding-left: 0px;
-        }
-        
-        #imagen__p2 {
-            padding-left: 0px;
-        }
-        
-        #imagen__p3 {
-            padding-left: 0px;
-            
-
-
-
-    }
-
-
-
-
-    /*galeria*/
-    .fondog {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding-top: 20px;
-        background-color: #fcf0cb;
-    }
-    
-    .img__g {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-    .gtitulo {
-        text-align: center;
-        padding-left: 01px;
-        background-color: #fcf0cb;
-        font-size: 12px;
-    }
-
-
-
-}
