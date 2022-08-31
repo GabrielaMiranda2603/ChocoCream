@@ -19,6 +19,12 @@
 
 .nav-h {
     color: #fcf0cb;
+    transition: color 0.5s ease-in, font-size 1.0s;
+}
+
+.nav-h:hover {
+    color: #cab164;
+    font-size: 18px;
 }
 
 
@@ -40,7 +46,6 @@
 }
 
 
-
 /*FOOTER*/
 .fondo-footer {
     background-color: #911f27;
@@ -53,15 +58,27 @@
 
 .nav-li {
     color: #fcf0cb; 
+    transition: color 0.5s ease-in, font-size 1.0s;
 }
 
+.nav-li:hover {
+    color: #cab164;
+    font-size: 18px;
+}
 
+.img-f {
+    transition: all 0.5s ease-out;
+}
+
+.img-f:hover {
+    scale: 115%;
+}
 
 /*CONTACTO*/
 .fondo-form {
     background-color: #fcf0cb;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .form-l {
@@ -76,11 +93,42 @@
 
 .form-button {
     color: #630a10;
+    transition: all 0.5s ease-out;
+}
+
+.form-button:hover {
+    scale: 115%;
 }
 
 .form-img {
     padding-bottom: 30px;
+    width: 620px;
+    height:380px;
+    transition: all 0.5s ease-out;
+}
+
+.form-img:hover {
+    scale: 105%;
 }
 
 
 
+@media screen and (max-width:767px) {
+
+     /*footer*/
+    .nav-li {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+
+     }
+    .nav-ti {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+     }
+
+     .form-img {
+        max-width: 100%;
+     }
+}

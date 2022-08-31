@@ -24,19 +24,16 @@
 <body>
     <header class="container-fluid">
         <div class="row">
-            <!--<img class="col-2" src="./images/logo.png" alt="logo ChocoCream">  !--width="200px" height="100px"-->
             <nav class="col-12 navbar navbar-expand-lg fondo-nav">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img class="logo-nav" src="../images/logo.png" alt="logo ChocoCream">
+                        <img class="logo-nav" src="../images/logo.png" alt="logo ChocoCream"> 
                     </a>
-                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                      </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link nav-h" aria-current="page" href="../index.html">INICIO</a>
                             </li>
@@ -60,23 +57,23 @@
 
     <main>
         <form class="row g-3 fondo-form">
-            <div class="col-md-6 mt-5 form-l">
+            <div class="col-md-6 col-sm-3 mt-5 form-l">
               <label for="inputNombre" class="form-label">Nombre</label>
               <input type="text" class="form-control form-p" id="inputNombre" placeholder="Ingresa tu nombre">
             </div>
-            <div class="col-md-6 mt-5 form-l">
+            <div class="col-md-6 col-sm-3 mt-5 form-l">
               <label for="inputApellido" class="form-label">Apellido</label>
               <input type="text" class="form-control form-p" id="inputApellido" placeholder="Ingresa tu apellido">
             </div>
-            <div class="col-md-6 form-l">
+            <div class="col-md-6 col-sm-3 form-l">
               <label for="inputTelefono" class="form-label">Telefono</label>
               <input type="tel" class="form-control form-p" id="inputTelefono" placeholder="Ingresa tu telefono">
             </div>
-            <div class="col-12 form-l">
+            <div class="col-12 col-md-6 col-sm-3 form-l">
               <label for="inputEmail" class="form-label">Email</label>
               <input type="text" class="form-control form-p" id="inputEmail" placeholder="Ingresa tu email">
             </div>
-            <div class="mb-3 form-l">
+            <div class="col-md-6 col-sm32 mb-3 form-l">
                 <label for="inputComentario" class="form-label">Mensaje</label>
                 <textarea class="form-control form-p" id="inputComentario" placeholder="Ingresa tu mensaje" rows="3"></textarea>
               </div>
@@ -85,8 +82,8 @@
                 <button type="submit" class="btn btn-outline-danger form-button">Enviar</button>
             </div>
           <!--</form>-->
-          <div class="col md-6">
-            <img class="rounded mx-auto d-block form-img" src="../images/pastelera-mostrando-torta.jpg" alt="pastlera mostrando torta" width="620px"
+          <div class="col-md-6 col-sm-3">
+            <img class="rounded mx-auto d-block form-img img-fluid" src="../images/pastelera-mostrando-torta.jpg" alt="pastlera mostrando torta" width="620px"
             height="380px">
         </div>
         </form>
@@ -108,20 +105,20 @@
                 </ul>
             </div>
 
-            <div class="col-4 nav-t">
-                <h5>Nuestras Redes</h5>
+            <div class="col-3 nav-t">
+                <h5 class="nav-ti">Nuestras Redes</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="https://www.facebook.com/ChocoCream-Pasteleria-100812996060179"
-                            class="nav-link p-0 text-muted"><img src="../images/facebook.png" alt="icono Facebook"
+                            class="nav-link p-0 text-muted img-f"><img src="../images/facebook.png" alt="icono Facebook"
                                 width="25px" height="25px"></a></li>
                     <li class="nav-item mb-2"><a href="https://www.instagram.com/chococreampasteleria/"
-                            class="nav-link p-0 text-muted"><img src="../images/instagram.png" alt="icono Instagram"
+                            class="nav-link p-0 text-muted img-f"><img src="../images/instagram.png" alt="icono Instagram"
                                 width="25px" height="25px"></a></li>
                 </ul>
             </div>
 
-            <div class="col-4 nav-t">
-                <h5>Informacion de Contacto</h5>
+            <div class="col-5 nav-t">
+                <h5 class="nav-ti">Informacion de Contacto</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-0"><a href="#" class="nav-link p-0 nav-li">Calle Falsa 123, Cordoba,
                             Argentina</a></li>
@@ -130,6 +127,9 @@
                             class="nav-link p-0 nav-li">chococream.pasteleria@gmail.com</a></li>
                 </ul>
             </div>
+        </footer>
+    </div>
+            
         </footer>
     </div>
 
