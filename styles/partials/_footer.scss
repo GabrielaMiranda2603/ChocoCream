@@ -1,0 +1,59 @@
+.fondo-footer {
+    background-color: $footerBackgroundColor;
+    color: $footerColorFonts;
+
+    .nav-lib {
+        color: $footerColorFonts;
+        transition: color 0.5s ease-in, font-size 1.0s;
+
+        &:hover {
+            color: $hoverColorFonts;
+            font-size: 18px;
+        }
+    }
+
+    .nav-t {
+        text-align: right;
+
+        .img-f {
+            transition: all 0.5s ease-out;
+
+            &:hover {
+                scale: 115%;
+            }
+        }
+
+        .nav-li {
+            color: $footerColorFonts;
+            transition: color 0.5s ease-in, font-size 1.0s;
+
+            &:hover {
+                color: $hoverColorFonts;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:767px) {
+
+    .fondo-footer {
+        background-color: $footerBackgroundColor;
+        color: #fcf0cb;
+        .nav-lib {
+            padding: 0;
+            margin: 0;
+            font-size: 10px;
+    }
+    .nav-ti {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+        .form-img {
+            max-width: 100%;
+         }
+     }
+}
+}
+   

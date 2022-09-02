@@ -1,0 +1,27 @@
+.fondo-nav {
+    background-color: $navBackgroundColor;
+
+    .logo-nav {
+        width: 200px;
+        height: 100px;
+    }
+
+    .navbar-nav {
+        color: $navColorFonts;
+
+        .nav-item {
+            display: flex;
+            justify-content: flex-end;
+
+            .nav-h {
+                color: $navColorFonts;
+                transition: color 0.5s ease-in, font-size 1.0s;
+
+                &:hover {
+                    color: $hoverColorFonts;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

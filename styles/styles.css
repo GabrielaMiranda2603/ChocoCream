@@ -1,134 +1,116 @@
-/*NAVBAR*/
 .fondo-nav {
-    background-color: #911f27;
+  background-color: #911f27;
+}
+.fondo-nav .logo-nav {
+  width: 200px;
+  height: 100px;
+}
+.fondo-nav .navbar-nav {
+  color: #fcf0cb;
+}
+.fondo-nav .navbar-nav .nav-item {
+  display: flex;
+  justify-content: flex-end;
+}
+.fondo-nav .navbar-nav .nav-item .nav-h {
+  color: #fcf0cb;
+  transition: color 0.5s ease-in, font-size 1s;
+}
+.fondo-nav .navbar-nav .nav-item .nav-h:hover {
+  color: #cab164;
+  font-size: 18px;
 }
 
-.logo-nav {
-    width: 200px;
-    height: 100px;
-}
-
-.nav-item {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navbar-nav  {
-    color: #fcf0cb;
-}
-
-.nav-h {
-    color: #fcf0cb;
-    transition: color 0.5s ease-in, font-size 1.0s;
-}
-
-.nav-h:hover {
-    color: #cab164;
-    font-size: 18px;
-}
-
-
-/*INICIO*/
 .imagen__de__fondo {
-    height: 1000px;
-    background-image: url(../images/pastel-chocolate-con-trozos-chocolat-y-bombon.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 1000px;
+  background-image: url(../images/pastel-chocolate-con-trozos-chocolat-y-bombon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imagen__de__fondo #eslogan {
+  text-align: right;
+  padding-top: 500px;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  margin-right: 50px;
+  color: #630a10;
 }
 
-.imagen__de__fondo div {
-    text-align: right;
-    padding-top: 500px;
-    font-family: 'Lobster', cursive;
-    font-size: 50px;
-    margin-right: 50px;
-    color: #630a10;
-}
-
-
-/*FOOTER*/
 .fondo-footer {
+  background-color: #911f27;
+  color: #fcf0cb;
+}
+.fondo-footer .nav-lib {
+  color: #fcf0cb;
+  transition: color 0.5s ease-in, font-size 1s;
+}
+.fondo-footer .nav-lib:hover {
+  color: #cab164;
+  font-size: 18px;
+}
+.fondo-footer .nav-t {
+  text-align: right;
+}
+.fondo-footer .nav-t .img-f {
+  transition: all 0.5s ease-out;
+}
+.fondo-footer .nav-t .img-f:hover {
+  scale: 115%;
+}
+.fondo-footer .nav-t .nav-li {
+  color: #fcf0cb;
+  transition: color 0.5s ease-in, font-size 1s;
+}
+.fondo-footer .nav-t .nav-li:hover {
+  color: #cab164;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .fondo-footer {
     background-color: #911f27;
     color: #fcf0cb;
+  }
+  .fondo-footer .nav-lib {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+  }
+  .fondo-footer .nav-ti {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+  }
+  .fondo-footer .nav-ti .form-img {
+    max-width: 100%;
+  }
 }
-
-.nav-t {
-    text-align: right;
-}
-
-.nav-li {
-    color: #fcf0cb; 
-    transition: color 0.5s ease-in, font-size 1.0s;
-}
-
-.nav-li:hover {
-    color: #cab164;
-    font-size: 18px;
-}
-
-.img-f {
-    transition: all 0.5s ease-out;
-}
-
-.img-f:hover {
-    scale: 115%;
-}
-
-/*CONTACTO*/
 .fondo-form {
-    background-color: #fcf0cb;
-    padding-left: 70px;
-    padding-right: 70px;
+  background-color: #fcf0cb;
+  padding-left: 70px;
+  padding-right: 70px;
 }
-
-.form-l {
-    background-color: #fcf0cb;
-    color: #630a10;
-    font-weight: 600
+.fondo-form .form-l {
+  background-color: #fcf0cb;
+  color: #630a10;
+  font-weight: 600;
 }
-
-.form-p {
-    background-color: #fcf0cb;
+.fondo-form .form-l .form-p {
+  background-color: #fcf0cb;
 }
-
-.form-button {
-    color: #630a10;
-    transition: all 0.5s ease-out;
+.fondo-form .form-button {
+  color: #630a10;
+  transition: all 0.5s ease-out;
 }
-
-.form-button:hover {
-    scale: 115%;
+.fondo-form .form-button:hover {
+  scale: 115%;
 }
-
-.form-img {
-    padding-bottom: 30px;
-    width: 620px;
-    height:380px;
-    transition: all 0.5s ease-out;
+.fondo-form .form-img {
+  padding-bottom: 30px;
+  width: 620px;
+  height: 380px;
+  transition: all 0.5s ease-out;
 }
-
-.form-img:hover {
-    scale: 105%;
-}
-
-
-
-@media screen and (max-width:767px) {
-
-     /*footer*/
-    .nav-li {
-        padding: 0;
-        margin: 0;
-        font-size: 10px;
-
-     }
-    .nav-ti {
-        padding: 0;
-        margin: 0;
-        font-size: 12px;
-     }
-
-     .form-img {
-        max-width: 100%;
-     }
-}
+.fondo-form .form-img:hover {
+  scale: 105%;
+}/*# sourceMappingURL=styles.css.map */
