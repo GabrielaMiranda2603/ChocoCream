@@ -1,13 +1,13 @@
 .fondo-footer {
-    background-color: $footerBackgroundColor;
-    color: $footerColorFonts;
+    background-color: map-get($backgroundColor, footerBackgroundColor);
+    color: map-get($colorFonts, footerColorFonts);
 
     .nav-lib {
-        color: $footerColorFonts;
+        color: map-get($colorFonts, footerColorFonts);
         transition: color 0.5s ease-in, font-size 1.0s;
 
         &:hover {
-            color: $hoverColorFonts;
+            color: map-get($colorFonts, hoverColorFonts);
             font-size: 18px;
         }
     }
@@ -24,11 +24,11 @@
         }
 
         .nav-li {
-            color: $footerColorFonts;
+            color: map-get($colorFonts, footerColorFonts);
             transition: color 0.5s ease-in, font-size 1.0s;
 
             &:hover {
-                color: $hoverColorFonts;
+                color: map-get($colorFonts,hoverColorFonts);
                 font-size: 18px;
             }
         }
@@ -39,7 +39,7 @@
 @media screen and (max-width:767px) {
 
     .fondo-footer {
-        background-color: $footerBackgroundColor;
+        background-color: map-get($backgroundColor, footerBackgroundColor);
         color: #fcf0cb;
         .nav-lib {
             padding: 0;

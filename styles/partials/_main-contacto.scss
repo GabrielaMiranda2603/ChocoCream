@@ -1,15 +1,15 @@
 .fondo-form {
-    background-color: $mainBackgroundColor;
+    background-color: map-get($backgroundColor, mainBackgroundColor);
     padding-left: 70px;
     padding-right: 70px;
 
     .form-l {
-        background-color: $mainBackgroundColor;
-        color: $mainColorFonts;
+        background-color: map-get($backgroundColor, mainBackgroundColor);
+        color: map-get($colorFonts, mainColorFonts);
         font-weight: 600;
 
         .form-p {
-            background-color: $mainBackgroundColor;
+            background-color: map-get($backgroundColor, mainBackgroundColor);
         }
     }
 

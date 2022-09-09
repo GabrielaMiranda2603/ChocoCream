@@ -1,5 +1,5 @@
 .fondo-nav {
-    background-color: $navBackgroundColor;
+    background-color: map-get($backgroundColor, navBackgroundColor);
 
     .logo-nav {
         width: 200px;
@@ -7,18 +7,18 @@
     }
 
     .navbar-nav {
-        color: $navColorFonts;
+        color: map-get($colorFonts, navColorFonts);
 
         .nav-item {
             display: flex;
             justify-content: flex-end;
 
             .nav-h {
-                color: $navColorFonts;
+                color: map-get($colorFonts, navColorFonts);
                 transition: color 0.5s ease-in, font-size 1.0s;
 
                 &:hover {
-                    color: $hoverColorFonts;
+                    color:map-get($colorFonts, hoverColorFonts);
                     font-size: 18px;
                 }
             }
