@@ -3,6 +3,11 @@
     padding-left: 70px;
     padding-right: 70px;
 
+    .titulo-c{
+        color: map-get($colorFonts, mainColorFonts);
+        padding-bottom: 30px;
+    }
+
     .form-l {
         background-color: map-get($backgroundColor, mainBackgroundColor);
         color: map-get($colorFonts, mainColorFonts);
