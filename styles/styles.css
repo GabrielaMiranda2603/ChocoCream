@@ -85,10 +85,78 @@
     max-width: 100%;
   }
 }
+.titulo-sn {
+  color: #630a10;
+  background-color: #fcf0cb;
+  padding: 30px;
+  text-align: center;
+}
+
+.text-sn {
+  background-color: aqua;
+}
+
+.img-sn {
+  width: 460px;
+  height: 306px;
+}
+
+.titulo-p {
+  color: #630a10;
+  background-color: #fcf0cb;
+  padding: 30px;
+  text-align: center;
+}
+
+.fondo-formp {
+  background-color: #fcf0cb;
+}
+.fondo-formp .card-pa {
+  width: 420px;
+  height: 470px;
+  border: solid #911f27;
+  background-color: #911f27;
+}
+.fondo-formp .card-pb {
+  padding-bottom: 80px;
+}
+.fondo-formp .card-t {
+  text-align: center;
+  color: #fcf0cb;
+}
+
+.prueba {
+  background-color: aqua;
+}
+
+.titulo-g {
+  color: #630a10;
+  background-color: #fcf0cb;
+  padding: 30px;
+  text-align: center;
+}
+
+.fondo-c {
+  background: #fcf0cb;
+  background-color: rgb(56, 168, 46);
+}
+.fondo-c .img-g {
+  width: 500px;
+  height: 670px;
+}
+.fondo-c .img-g .img-g1 {
+  width: 500px;
+  height: 670px;
+}
+
 .fondo-form {
   background-color: #fcf0cb;
   padding-left: 70px;
   padding-right: 70px;
+}
+.fondo-form .titulo-c {
+  color: #630a10;
+  padding-bottom: 30px;
 }
 .fondo-form .form-l {
   background-color: #fcf0cb;

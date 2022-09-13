@@ -1,0 +1,25 @@
+.titulo-p {
+    color: map-get($colorFonts, mainColorFonts);
+    background-color: map-get($backgroundColor, mainBackgroundColor);
+    padding: 30px;
+    text-align: center;
+}
+.fondo-formp {
+    background-color: map-get($backgroundColor, mainBackgroundColor);
+
+    .card-pa{
+        width: 420px;
+        height: 470px;
+        border: solid #911f27;
+        background-color: map-get($backgroundColor, cardBackgroundColor);
+    }
+
+    .card-pb {
+        padding-bottom: 80px;
+    }
+
+    .card-t {
+        text-align: center;
+        color: map-get($colorFonts, cardColorFonts);
+    }
+}

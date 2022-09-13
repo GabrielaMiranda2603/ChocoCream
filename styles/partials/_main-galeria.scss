@@ -1,0 +1,23 @@
+.prueba {
+    background-color: aqua;
+}
+.titulo-g {
+    color: map-get($colorFonts, mainColorFonts);
+    background-color: map-get($backgroundColor, mainBackgroundColor);
+    padding: 30px;
+    text-align: center;
+}
+
+.fondo-c {
+    background: map-get($backgroundColor, mainBackgroundColor);
+    background-color: rgb(56, 168, 46);
+
+    .img-g {
+        width: 500px;
+        height: 670px; 
+        .img-g1 {
+            width: 500px;
+            height: 670px;
+        }
+    }
+}
