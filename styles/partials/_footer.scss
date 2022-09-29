@@ -11,30 +11,16 @@
             font-size: 18px;
         }
     }
+    .img-f {
+        transition: all 0.4s ease-out;
 
-    .nav-t {
-        text-align: right;
-
-        .img-f {
-            transition: all 0.5s ease-out;
-
-            &:hover {
-                scale: 115%;
-            }
-        }
-
-        .nav-li {
-            color: map-get($colorFonts, footerColorFonts);
-            transition: color 0.5s ease-in, font-size 1.0s;
-
-            &:hover {
-                color: map-get($colorFonts,hoverColorFonts);
-                font-size: 18px;
-            }
+        &:hover {
+            scale: 125%;
         }
     }
 }
 
+    
 
 @media screen and (max-width:767px) {
 

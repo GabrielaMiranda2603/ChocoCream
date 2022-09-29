@@ -1,6 +1,7 @@
 .titulo-p {
     color: map-get($colorFonts, mainColorFonts);
     background-color: map-get($backgroundColor, mainBackgroundColor);
+    font-family: 'Lobster', cursive;
     padding: 30px;
     text-align: center;
 }
@@ -8,10 +9,15 @@
     background-color: map-get($backgroundColor, mainBackgroundColor);
 
     .card-pa{
-        width: 420px;
-        height: 470px;
+        width: 390px;
+        height: 450px;
         border: solid #911f27;
         background-color: map-get($backgroundColor, cardBackgroundColor);
+        transition: all 0.5s ease-out;
+
+        &:hover {
+            scale: 105%;
+        }
     }
 
     .card-pb {

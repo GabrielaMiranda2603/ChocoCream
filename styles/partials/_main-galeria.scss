@@ -3,6 +3,7 @@
 }
 .titulo-g {
     color: map-get($colorFonts, mainColorFonts);
+    font-family: 'Lobster', cursive;
     background-color: map-get($backgroundColor, mainBackgroundColor);
     padding: 30px;
     text-align: center;
