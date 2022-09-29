@@ -4,13 +4,13 @@
     .titulo-g {
         color: map-get($colorFonts, mainColorFonts);
         font-family: 'Lobster', cursive;
-        /*background-color: map-get($backgroundColor, mainBackgroundColor);*/
         padding: 30px;
         text-align: center;
     }
+
     .img-g {
         width: 400px;
-        height: 500px;  
+        height: 500px;
         margin-left: 25px;
         margin-top: 25px;
         margin-bottom: 25px;
@@ -20,5 +20,4 @@
             scale: 115%;
         }
     }
-    }
-
+}

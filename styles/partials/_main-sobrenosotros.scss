@@ -1,5 +1,6 @@
 .fondo-sn {
     background-color: map-get($backgroundColor, mainBackgroundColor);
+
     .titulo-sn {
         color: map-get($colorFonts, mainColorFonts);
         background-color: map-get($backgroundColor, mainBackgroundColor);
@@ -7,18 +8,19 @@
         padding: 30px;
         text-align: center;
     }
+
     .text-sn {
-        /*padding-left: 100px;
-        padding-right: 100px;*/
         padding: 100px;
         color: map-get($colorFonts, mainColorFonts);
-        }
-        .img-sn1 {
-            width: 460px;
-            height: 306px;
-        }
-        .img-sn2 {
-            width: 460px;
-            height: 306px;
-        }
+    }
+
+    .img-sn1 {
+        width: 460px;
+        height: 306px;
+    }
+
+    .img-sn2 {
+        width: 460px;
+        height: 306px;
+    }
 }

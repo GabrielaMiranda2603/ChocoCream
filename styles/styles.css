@@ -90,8 +90,6 @@
   text-align: center;
 }
 .fondo-sn .text-sn {
-  /*padding-left: 100px;
-  padding-right: 100px;*/
   padding: 100px;
   color: #630a10;
 }
@@ -139,7 +137,6 @@
 .fondo-g .titulo-g {
   color: #630a10;
   font-family: "Lobster", cursive;
-  /*background-color: map-get($backgroundColor, mainBackgroundColor);*/
   padding: 30px;
   text-align: center;
 }
