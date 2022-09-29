@@ -133,29 +133,26 @@
   color: #fcf0cb;
 }
 
-.prueba {
-  background-color: aqua;
+.fondo-g {
+  background-color: #fcf0cb;
 }
-
-.titulo-g {
+.fondo-g .titulo-g {
   color: #630a10;
   font-family: "Lobster", cursive;
-  background-color: #fcf0cb;
+  /*background-color: map-get($backgroundColor, mainBackgroundColor);*/
   padding: 30px;
   text-align: center;
 }
-
-.fondo-c {
-  background: #fcf0cb;
-  background-color: rgb(56, 168, 46);
+.fondo-g .img-g {
+  width: 400px;
+  height: 500px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  transition: all 0.4s ease-out;
 }
-.fondo-c .img-g {
-  width: 500px;
-  height: 670px;
-}
-.fondo-c .img-g .img-g1 {
-  width: 500px;
-  height: 670px;
+.fondo-g .img-g:hover {
+  scale: 115%;
 }
 
 .fondo-form {

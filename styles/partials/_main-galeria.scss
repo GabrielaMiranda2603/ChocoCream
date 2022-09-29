@@ -1,24 +1,24 @@
-.prueba {
-    background-color: aqua;
-}
-.titulo-g {
-    color: map-get($colorFonts, mainColorFonts);
-    font-family: 'Lobster', cursive;
+.fondo-g {
     background-color: map-get($backgroundColor, mainBackgroundColor);
-    padding: 30px;
-    text-align: center;
-}
 
-.fondo-c {
-    background: map-get($backgroundColor, mainBackgroundColor);
-    background-color: rgb(56, 168, 46);
-
+    .titulo-g {
+        color: map-get($colorFonts, mainColorFonts);
+        font-family: 'Lobster', cursive;
+        /*background-color: map-get($backgroundColor, mainBackgroundColor);*/
+        padding: 30px;
+        text-align: center;
+    }
     .img-g {
-        width: 500px;
-        height: 670px; 
-        .img-g1 {
-            width: 500px;
-            height: 670px;
+        width: 400px;
+        height: 500px;  
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        transition: all 0.4s ease-out;
+
+        &:hover {
+            scale: 115%;
         }
     }
-}
+    }
+
