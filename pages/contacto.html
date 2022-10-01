@@ -60,42 +60,67 @@
             </nav>
     </header>
 
-    <main class="container-fluid">
-        <form class="row g-3 fondo-form">
-            <div class="col-12 titulo-c">
-                <h1>Contactanos</h1>
+    <main class="fondo-form">
+
+        <div class="titulo-c">
+            <h1>Contactanos</h1>
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-12 g-3">
+                    <form>
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-1 form-l">
+                            <label for="inputNombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control form-p" id="inputNombre"
+                                placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-3 form-l">
+                            <label for="inputApellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control form-p" id="inputApellido"
+                                placeholder="Ingresa tu apellido">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-3 form-l">
+                            <label for="inputTelefono" class="form-label">Telefono</label>
+                            <input type="tel" class="form-control form-p" id="inputTelefono"
+                                placeholder="Ingresa tu telefono">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-3 form-l">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="text" class="form-control form-p" id="inputEmail"
+                                placeholder="Ingresa tu email">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-3 mb-3 form-l">
+                            <label for="inputComentario" class="form-label">Mensaje</label>
+                            <textarea class="form-control form-p" id="inputComentario" placeholder="Ingresa tu mensaje"
+                                rows="3"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <button type="submit" class="btn btn-outline-danger form-button">Enviar</button>
+                        </div>
+                        <!--</form>-->
+                    </form>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img class="rounded mx-auto d-block form-img img-fluid"
+                        src="../images/pastelera-mostrando-torta.jpg" alt="pastlera mostrando torta" width="620px"
+                        height="380px">
+                    <div class="form-t">
+                        <h3>ChocoCream Pasteleria</h3>
+                    </div>
+                    <div class="form-d">
+                        <p>Los Paraisos, Cordoba, Argentina</p>
+                        <p>Si tienes alguna pregunta o comentario acerca de nuestros productos o servicios, por favor no
+                            dudes en ponerte en contacto con nosotros!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 col-sm-3 mt-5 form-l">
-                <label for="inputNombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control form-p" id="inputNombre" placeholder="Ingresa tu nombre">
-            </div>
-            <div class="col-md-6 col-sm-3 mt-5 form-l">
-                <label for="inputApellido" class="form-label">Apellido</label>
-                <input type="text" class="form-control form-p" id="inputApellido" placeholder="Ingresa tu apellido">
-            </div>
-            <div class="col-md-6 col-sm-3 form-l">
-                <label for="inputTelefono" class="form-label">Telefono</label>
-                <input type="tel" class="form-control form-p" id="inputTelefono" placeholder="Ingresa tu telefono">
-            </div>
-            <div class="col-12 col-md-6 col-sm-3 form-l">
-                <label for="inputEmail" class="form-label">Email</label>
-                <input type="text" class="form-control form-p" id="inputEmail" placeholder="Ingresa tu email">
-            </div>
-            <div class="col-md-6 col-sm32 mb-3 form-l">
-                <label for="inputComentario" class="form-label">Mensaje</label>
-                <textarea class="form-control form-p" id="inputComentario" placeholder="Ingresa tu mensaje"
-                    rows="3"></textarea>
-            </div>
-            </div>
-            <div class="col-md-12">
-                <button type="submit" class="btn btn-outline-danger form-button">Enviar</button>
-            </div>
-            <!--</form>-->
-            <div class="col-md-6 col-sm-3">
-                <img class="rounded mx-auto d-block form-img img-fluid" src="../images/pastelera-mostrando-torta.jpg"
-                    alt="pastlera mostrando torta" width="620px" height="380px">
-            </div>
-        </form>
+        </div>
+
     </main>
 
 
@@ -107,9 +132,12 @@
                 </div>
 
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a href="https://www.instagram.com/chococreampasteleria/" class="text-muted"><img class="img-f" src="../images/instagram.png"
-                                alt="icono Instagram" width="25px" height="25px"></a></li>
-                    <li class="ms-3"><a href="https://www.facebook.com/ChocoCream-Pasteleria-100812996060179" class="text-muted"><img class="img-f" src="../images/facebook.png" alt="icono Facebook" width="25px" height="25px"></a></li>
+                    <li class="ms-3"><a href="https://www.instagram.com/chococreampasteleria/" class="text-muted"><img
+                                class="img-f" src="../images/instagram.png" alt="icono Instagram" width="25px"
+                                height="25px"></a></li>
+                    <li class="ms-3"><a href="https://www.facebook.com/ChocoCream-Pasteleria-100812996060179"
+                            class="text-muted"><img class="img-f" src="../images/facebook.png" alt="icono Facebook"
+                                width="25px" height="25px"></a></li>
                 </ul>
             </footer>
         </div>

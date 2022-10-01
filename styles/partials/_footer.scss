@@ -7,7 +7,6 @@
         transition: color 0.5s ease-in, font-size 1.0s;
 
         &:hover {
-            color: map-get($colorFonts, hoverColorFonts);
             font-size: 18px;
         }
     }

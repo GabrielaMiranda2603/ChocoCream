@@ -21,6 +21,12 @@
   font-size: 18px;
 }
 
+@media screen and (max-width: 767px) {
+  .logo-nav {
+    width: 100px;
+    height: 70px;
+  }
+}
 .imagen__de__fondo {
   height: 1000px;
   background-image: url(../images/pastel-chocolate-con-trozos-chocolat-y-bombon.jpg);
@@ -45,7 +51,6 @@
   transition: color 0.5s ease-in, font-size 1s;
 }
 .fondo-footer .nav-lib:hover {
-  color: #cab164;
   font-size: 18px;
 }
 .fondo-footer .img-f {
@@ -154,35 +159,57 @@
 
 .fondo-form {
   background-color: #fcf0cb;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 70px;
 }
 .fondo-form .titulo-c {
   color: #630a10;
-  padding-bottom: 30px;
   text-align: center;
+  font-family: "Lobster", cursive;
 }
 .fondo-form .form-l {
   background-color: #fcf0cb;
   color: #630a10;
-  font-weight: 600;
+  font-family: "Lobster", cursive;
+  font-weight: 500;
+  align-items: center;
+  font-size: 20px;
 }
 .fondo-form .form-l .form-p {
   background-color: #fcf0cb;
+  font-family: "Roboto", sans-serif;
 }
 .fondo-form .form-button {
   color: #630a10;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
 }
 .fondo-form .form-button:hover {
   scale: 115%;
 }
 .fondo-form .form-img {
-  padding-bottom: 30px;
+  margin-top: 30px;
   width: 620px;
   height: 380px;
   transition: all 0.5s ease-out;
 }
 .fondo-form .form-img:hover {
   scale: 105%;
+}
+.fondo-form .form-t {
+  color: #630a10;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "Lobster", cursive;
+}
+.fondo-form .form-d {
+  color: #630a10;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 767px) {
+  .fondo-form {
+    padding: 0px;
+  }
 }/*# sourceMappingURL=styles.css.map */
