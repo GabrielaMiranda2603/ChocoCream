@@ -13,3 +13,18 @@
         color: map-get($colorFonts, esloganColorFonts);
     }
 }
+
+
+
+@media screen and (max-width:767px) {
+    .imagen__de__fondo {
+
+        #eslogan {
+            padding-top: 700px;
+            font-size: 40px;
+            margin-right: 0px;
+            text-align: end;
+            color: map-get($colorFonts, esloganColorFontsMobile);
+        }
+    }
+}

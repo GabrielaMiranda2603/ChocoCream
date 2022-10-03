@@ -2,7 +2,7 @@
     background-color: map-get($backgroundColor, mainBackgroundColor);
     padding: 70px;
 
-    .titulo-c{
+    .titulo-c {
         color: map-get($colorFonts, mainColorFonts);
         text-align: center;
         font-family: 'Lobster', cursive;
@@ -32,7 +32,6 @@
     }
 
     .form-img {
-        margin-top: 30px;
         width: 620px;
         height: 380px;
         transition: all 0.5s ease-out;
@@ -49,17 +48,23 @@
         padding-bottom: 10px;
         font-family: 'Lobster', cursive;
     }
+
     .form-d {
         color: map-get($colorFonts, mainColorFonts);
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-size: 17px;
     }
-    }
+}
 
 
-    @media screen and (max-width:767px) {
-        .fondo-form {
-            padding: 0px;
+
+@media screen and (max-width:767px) {
+    .fondo-form {
+        padding: 0px;
+
+        .titulo-c {
+            padding-top: 30px;
+        }
     }
 }

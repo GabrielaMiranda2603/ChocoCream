@@ -5,10 +5,11 @@
     padding: 30px;
     text-align: center;
 }
+
 .fondo-formp {
     background-color: map-get($backgroundColor, mainBackgroundColor);
 
-    .card-pa{
+    .card-pa {
         width: 390px;
         height: 450px;
         border: solid #911f27;
@@ -27,5 +28,20 @@
     .card-t {
         text-align: center;
         color: map-get($colorFonts, cardColorFonts);
+    }
+}
+
+
+
+@media screen and (max-width:767px) {
+    .fondo-formp {
+
+        .card-pa {
+            transition: all 0.5s ease-out;
+
+            &:hover {
+                scale: 100%;
+            }
+        }
     }
 }
