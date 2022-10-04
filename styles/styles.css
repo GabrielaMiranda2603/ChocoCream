@@ -256,4 +256,10 @@
   .fondo-form .titulo-c {
     padding-top: 30px;
   }
+  .fondo-form .form-img {
+    transition: all 0.5s ease-out;
+  }
+  .fondo-form .form-img:hover {
+    scale: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
